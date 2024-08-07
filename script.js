@@ -1,5 +1,5 @@
-const APP_TOKEN = 'd1690a07-3780-4068-810f-9b5bbf2931b2';
-const PROMO_ID = 'b4170868-cef0-424f-8eb9-be0622e8e8e3';
+const APP_TOKEN = 'd28721be-fd2d-4b45-869e-9f253b554e50';
+const PROMO_ID = '43e35910-c168-4634-ad4f-52fd764a843f';
 const EVENTS_DELAY = 20000;
 
 document.getElementById('startBtn').addEventListener('click', async () => {
@@ -125,7 +125,7 @@ function sleep(ms) {
 }
 
 function delayRandom() {
-    return Math.random() / 3 + 1;
+    return Math.random() / 4 + 1;
 }
 
 
